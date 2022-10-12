@@ -26,9 +26,11 @@ function calcularMedia() {
     outSituacao.textContent = 'Ops! ' + nome + '... Você foi reprovado(a)'
     outSituacao.style.color = 'red'
   }
-  //Cria uma referência ao elemento btResultado (botão)
-  let btResultado = document.getElementById('btResultado')
-
-  //Registra um evento associado ao botão, para carregar uma função
-  btResultado.addEventListener('click', calcularMedia)
+  
 }
+
+//Cria uma referência ao elemento btResultado (botão)
+let btResultado = document.getElementById('btResultado')
+
+//Registra um evento associado ao botão, para carregar uma função
+btResultado.addEventListener('click', calcularMedia)
